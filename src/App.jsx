@@ -92,6 +92,7 @@ function App() {
         >
           !! Jay Shree Ram !!
         </h5> */}
+        <h2 className="Name">API Testing Tool</h2>
 
         <form className="form">
           <select
