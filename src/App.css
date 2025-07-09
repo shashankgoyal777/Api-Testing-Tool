@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+   padding:10px;
+
+  width: 100%;
+  height: 100vh;
+  border: 1px solid #000000;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+.form {
+  border: 1px solid #000000;
+  width: 80%;
+  margin: auto;
+  padding: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.url_bar {
+  height: 30px;
+  width: 80%;
+  padding: 7px;
+  border-radius: 7px;
+  font-size: medium;
+}
+
+.method_selector {
+  height: 30px;
+  width: 7%;
+  padding: 7px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.send_btn {
+  height: 30px;
+  width: 7%;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.response-div {
+  width: 80%;
+  height: 40vh;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  border: 2px solid #000000;
+  margin: auto;
+}
+.response {
+  height: 100%;
+  width: 100%;
+}
+
+.params-div {
+  width: 80%;
+  min-height: 200px;
+  height: auto;
+  margin: auto;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+
+  border: 1px solid #000000;
+}
+.param {
+  /* border: 2px solid red ; */
+  display: flex;
+  justify-content: flex-start;
+  height: auto;
+  margin: 3px;
+  /* border: #000000 1px solid; */
+
+}
+.param input[type="text"] {
+  width: 30%;
+  height: 30px;
+  border-radius: 7px;
+  margin-right: 10px;
+  padding: 3px 7px;
+}
+
+.param input[type="checkbox"] {
+  width:4%;
+  /* height: 25%; */
+}
+
+.add_param_btn {
+  width: 20%;
+  height: 30px;
+  border-radius: 7px;
+  cursor: pointer;
+  margin-top: 10px;
+}
